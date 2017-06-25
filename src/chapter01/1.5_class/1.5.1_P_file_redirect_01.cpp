@@ -3,7 +3,7 @@
  * @Eamil 0haizhu0@gmail.com
  */
 #include <iostream>
-#include "Sales_item.h" // 引入自定义的头文件不是 <>，而是 ""
+#include "../Sales_item.h" // 引入自定义的头文件不是 <>，而是 ""
 
 /**
  * 文件重定向测试：

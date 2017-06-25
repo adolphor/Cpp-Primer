@@ -2,7 +2,9 @@
 .DS_Store
 
 .idea
+cmake-build-debug
+
+MS_pre_C11
 
 a.out
 
-cmake-build-debug

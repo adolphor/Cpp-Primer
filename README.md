@@ -14,7 +14,11 @@
     ```
 * expect 自动运行
     - 如果安装了`expect`可以直接执行每个章节下的`run.sh`文件，来批量执行每个程序查看运行效果，
+        * 验证方式：`expect -version`
+        * 安装方式：`brew install expect`
     - 要注意脚本文件具有执行权限，没有权限是运行`chmod +x run.sh`赋权。
+        * chmod +x chapterXx.sh
+        * chmod +x run.sh
     - 因为expect用的不是bash所以 `sh run.sh` 会报错，执行的时候直接 `./run.sh` 就可以了。～切记！
 
 # 参考

@@ -21,8 +21,3 @@
 
 * [官方源码](http://www.informit.com/store/c-plus-plus-primer-9780321714114)
 * [课后习题解答](https://github.com/Mooophy/Cpp-Primer)
-
-# 更多
-
-* 好像看到了一个新的构建工具可以学习
-    - [xmake](http://xmake.io/cn/)

@@ -11,6 +11,7 @@
  * @return
  */
 int main() {
+  std::cout << "请输入两个book信息测试相加：" << std::endl;
   Sales_item item1, item2;
   std::cin >> item1 >> item2;
   std::cout << item1 + item2 << std::endl;

@@ -14,6 +14,7 @@
  * @return
  */
 int main() {
+  std::cout << "请输入book信息测试Sales_item类：" << std::endl;
   Sales_item book;
   // TODO 为什么能将空格分割的属性直接赋值到book对象？
   std::cin >> book;

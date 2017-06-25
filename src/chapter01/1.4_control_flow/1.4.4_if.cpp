@@ -8,6 +8,7 @@
  * if语句，计算连续的相同数字的个数
  */
 int main() {
+  std::cout << "if语句，计算连续的相同数字的个数：" << std::endl;
   int currVal = 0, val = 0;
   if (std::cin >> currVal) { // 先接收第一个参数，赋值
     int cnt = 1;

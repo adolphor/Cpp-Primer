@@ -2,6 +2,17 @@
 
 读书笔记，以及代码范例
 
+* 书中范例代码下载地址：
+
+```
+http://www.informit.com/store/c-plus-plus-primer-9780321714114
+```
+
+* 答案参考
+```
+https://github.com/Mooophy/Cpp-Primer
+```
+
 # 运行方法
 
 当前按照命令行方式来运行：

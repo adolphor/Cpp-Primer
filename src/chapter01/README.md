@@ -1,4 +1,8 @@
-# section 1.1
+# 运行脚本
 
-* 可以使用数字作为文件名首字母
-* 
+* 已经安装 `expect`，验证方式
+    - expect -version
+* 脚本具有执行权限
+    - chmod +x chapter01.sh
+    - chmod +x run.sh
+

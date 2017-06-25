@@ -33,14 +33,14 @@ int main() {
  */
 void if_Demo() {
   int currVal = 0, val = 0;
-  if (std::__1::cin >> currVal) {
+  if (std::__1::cin >> currVal) { // 先接收第一个参数，赋值
     int cnt = 1;
-    while (std::__1::cin >> val) {
+    while (std::__1::cin >> val) { // 再遍历其余数据
       if (val == currVal) {
         ++cnt;
       } else {
         std::__1::cout << currVal << " occurs " << cnt << " times." << std::__1::endl;
-        currVal = val;
+        currVal = val; // 不置空，直接设置为下一个需要比对的值
         cnt = 1;
       }
     } // while 结束

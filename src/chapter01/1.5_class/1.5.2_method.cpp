@@ -3,7 +3,7 @@
  * @Eamil 0haizhu0@gmail.com
  */
 #include <iostream>
-#include "../Sales_item.h"
+#include "Sales_item.h"
 
 /**
  * 成员函数（方法）是定义为类的一部分的函数

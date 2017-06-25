@@ -6,19 +6,48 @@ void for_Demo();
 
 void notQuantitativeValue();
 
+void if_Demo();
+
 int main() {
 
   // 1.4.1 while
   while_Demo();
   // 1.4.2 for
   for_Demo();
+
+  // 需要注意点是，1.4.3 和 1.4.4 不能同时运行，因为1.4.3结束输入的时候，1.4.4就不能接收到输入数据了
+
   // 1.4.3 读取数量不定的输入数据
   notQuantitativeValue();
+  // 1.4.4 if语句
+  if_Demo();
 
 
   std::cout << "Section 1.4 end" << std::endl;
 
   return 0;
+}
+
+/**
+ * if语句，计算连续的相同数字的个数
+ */
+void if_Demo() {
+  int currVal = 0, val = 0;
+  if (std::__1::cin >> currVal) {
+    int cnt = 1;
+    while (std::__1::cin >> val) {
+      if (val == currVal) {
+        ++cnt;
+      } else {
+        std::__1::cout << currVal << " occurs " << cnt << " times." << std::__1::endl;
+        currVal = val;
+        cnt = 1;
+      }
+    } // while 结束
+    std::__1::cout << currVal << " occurs " << cnt << " times." << std::__1::endl;
+  } // if 结束
+
+
 }
 
 /**

@@ -20,6 +20,7 @@
         * chmod +x chapterXx.sh
         * chmod +x run.sh
     - 因为expect用的不是bash所以 `sh run.sh` 会报错，执行的时候直接 `./run.sh` 就可以了。～切记！
+* 当前 macOS 默认不支持 C++11 新特性，编译的时候需要加上 `-std=c++11` 参数才能支持C++11
 
 # 参考
 

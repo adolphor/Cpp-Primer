@@ -6,7 +6,7 @@
     - 使用Clion这个IDE的时候，在src右键选择"Mark Directory As"中的source即可高亮文件夹了。
 * 编译命令  
     ```
-    g++ fileName.cpp
+    g++ fileName.cpp -std=c++11
     ```
 * 运行    
     ```

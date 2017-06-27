@@ -33,6 +33,9 @@ int main() {
   int a2(ld), b2 = (ld); // 转换执行，且缺失丢失了部分信息
   std::cout << a2 << "、" << b2 << std::endl;
 
+  // 3. 默认初始化
+  // 定义域任何函数体之外的变量，被初始化为0；定义域函数体之内的变量将不被初始化，试图访问或者拷贝此变量将引发错误。
+
 }
 
 double applyDiscount(double price, double discount) {

@@ -1,11 +1,12 @@
+
 double applyDiscount(double price, double discount);
+
+#include <iostream>
 
 /**
  * @Author Bob
  * @Eamil 0haizhu0@gmail.com
  */
-#include <iostream>
-
 int main() {
 
   /**

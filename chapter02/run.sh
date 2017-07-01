@@ -8,10 +8,9 @@ set scriptFolder [file dirname $dispScriptFile]
 spawn $scriptFolder/chapter02.sh
 
 # Demo 1.2
-expect "Please enter to numbers:"
-send -- "2\n"
-send -- "4\n"
-
+#expect "Please enter to numbers:"
+#send -- "2\n"
+#send -- "4\n"
 
 
 

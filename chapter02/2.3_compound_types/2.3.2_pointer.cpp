@@ -39,6 +39,18 @@ int main() {
    */
   std::cout << p << " => " << *p << std::endl;
 
+  /**
+   * 空指针，建议使用如下方式
+   */
+  int *p1 = nullptr;
+
+  /**
+   * *void 指针，能存放任意类型对象的地址
+   */
+  double obj = 3.14,*pd = &obj;
+  void *pv = &obj; // obj可以是任意类型的对象
+  pv = pd; // pv可以存放任意类型的指针
+
 
   return 0;
 }

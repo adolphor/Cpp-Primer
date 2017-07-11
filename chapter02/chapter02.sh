@@ -38,3 +38,8 @@ g++ 2.3_compound_types/2.3.1_P_217.cpp
 ./a.out
 sleep 1
 
+g++ 2.4_const_qualifier/2.4.0_constant_qualifier.cpp
+
+g++ 2.4_const_qualifier/2.4.1_references_to_const.cpp
+
+g++ 2.4_const_qualifier/2.4.2_pointer_and_const.cpp

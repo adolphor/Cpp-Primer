@@ -17,7 +17,6 @@ int main() {
   //  *cptr = 42; // 错误，不能给*ptr赋值
   std::cout << cptr << " => " << *cptr << " => " << pi << std::endl;
 
-
   int age = 18; // int型变量
   const int *cage = &age; // 常量指针，指向非常量int型数据
   std::cout << cage << " => " << *cage << " => " << age << std::endl;
@@ -32,11 +31,12 @@ int main() {
   int errorNum = 0;
   // 从右向左：const表示curErr是一个常量对象，* 表示curErr是一个常量指针，int表示这个常量指针指向了一个int对象
   int *const curErr = &errorNum; // curErr 将一直指向errNum
+//  const int *curErr = &errorNum; // TODO 和上面那种写法的区别？
   std::cout << curErr << " => " << *curErr << " => " << errorNum << std::endl;
 
   const double score = 98.5;
   // 从右向左：参考上面，多了一个const，表示 cscore 是一个常量指针，指向的对象是一个双精度浮点型常量
-  const double *const cscore = &score; // cscore 是一个指向常量对象的常量指针
+  const double *const cscore = &score; // cscore 是一个指向常量对象的常量指针 TODO 两个const，都是必须的吗？因为去掉后面的也能编译通过
   std::cout << cscore << " => " << *cscore << " => " << score << std::endl;
 
   return 0;

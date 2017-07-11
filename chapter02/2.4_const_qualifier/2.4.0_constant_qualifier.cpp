@@ -17,7 +17,7 @@ int main() {
    * 默认状态下，const仅在当前文件下有效，如果想要多个文件共享，需要添加 `extern` 关键字
    *
    */
-  extern const int shared = 512;
+//  extern const int shared = 512;  // TODO 编译不通过
 
 
   return 0;

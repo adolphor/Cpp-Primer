@@ -31,13 +31,15 @@ int main() {
   int errorNum = 0;
   // 从右向左：const表示curErr是一个常量对象，* 表示curErr是一个常量指针，int表示这个常量指针指向了一个int对象
   int *const curErr = &errorNum; // curErr 将一直指向errNum
-//  const int *curErr = &errorNum; // TODO 和上面那种写法的区别？
   std::cout << curErr << " => " << *curErr << " => " << errorNum << std::endl;
 
   const double score = 98.5;
   // 从右向左：参考上面，多了一个const，表示 cscore 是一个常量指针，指向的对象是一个双精度浮点型常量
-  const double *const cscore = &score; // cscore 是一个指向常量对象的常量指针 TODO 两个const，都是必须的吗？因为去掉后面的也能编译通过
+  const double *const cscore = &score; // cscore 是一个指向常量对象的常量指针
   std::cout << cscore << " => " << *cscore << " => " << score << std::endl;
+
+  // Q: 一个表达式中有两个const分别都是什么含义和作用？
+  // A；2.4.3 可以解答这个问题
 
   return 0;
 }

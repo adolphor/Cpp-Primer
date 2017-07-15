@@ -1,6 +1,6 @@
 #include <iostream>
 
-double getAvg();
+double f();
 
 /**
  * 2.5.3 decltype 类型指示符
@@ -14,7 +14,7 @@ int main() {
    * 当使用初始化的值推断所属类型的时候，使用auto。但是，如果希望只使用表达式的类型推断出要定义的变量的类型，
    * 但是不用该表达式的值初始化变量。C++11引入了第二种类型说明符decltype，它的作用是选择并返回操作数的数据类型。
    */
-  decltype(getAvg()) sum = 95.0; // sum 的类型就是函数 getAvg 的返回类型（TODO 返回类型是double，为什么打印出来是95而没有小数点？）
+  decltype(f()) sum = 95.0; // sum 的类型就是函数 f 的返回类型（TODO 返回类型是double，为什么打印出来是95而没有小数点？）
   std::cout << "sum => " << sum << std::endl;
 
   /**
@@ -43,7 +43,7 @@ int main() {
 
 }
 
-double getAvg() {
+double f() {
   double chinese = 80.5;
   double english = 90.0;
   double avg = (chinese + english) / 2;

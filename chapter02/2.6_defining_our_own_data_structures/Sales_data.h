@@ -3,7 +3,10 @@
  * @Eamil 0haizhu0@gmail.com
  * @Date 2017/7/17
  */
+// ifdef  只有当已定义的时候才进行后续操作
+// ifndef 只有当未定义的时候才进行后续操作
 #ifndef CPP_PRIMER_SALES_DATA_H
+// define 进行定义
 #define CPP_PRIMER_SALES_DATA_H
 
 #include <string>
@@ -17,5 +20,5 @@ struct Sales_data {
     unsigned units_sold; // TODO 无符号类型？具体是什么类型？
     double revenue;
 };
-
+// endif 操作到此结束
 #endif //CPP_PRIMER_SALES_DATA_H

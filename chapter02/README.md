@@ -5,5 +5,6 @@
 * Section 2.3 Compound Types 
 * Section 2.4 const Qualifier
 * Section 2.5 Dealing with Types
-* Section 2.6 Defining Our Own Data Structures Chapter Summary
+* Section 2.6 Defining Our Own Data Structures 
+* Chapter Summary
 * Defined Terms

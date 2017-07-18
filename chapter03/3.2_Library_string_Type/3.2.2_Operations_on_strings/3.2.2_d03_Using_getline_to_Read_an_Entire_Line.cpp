@@ -5,6 +5,7 @@
  * @Date 2017/7/18
  */
 
+#include <string>
 #include <iostream>
 
 using std::string;

@@ -1,4 +1,3 @@
-#include <string>
 #include <iostream>
 #include "Sales_data.h"
 

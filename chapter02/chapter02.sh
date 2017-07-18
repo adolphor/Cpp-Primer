@@ -49,5 +49,5 @@ g++ 2.4_const_qualifier/2.4.3_top_level_const.cpp
 
 g++ 2.5_dealing_with_types/2.5.1_type_aliases.cpp -std=c++11
 
-
+g++ 2.6_defining_our_own_data_structures/2.6.2_using_the_sales_data_class.cpp
 

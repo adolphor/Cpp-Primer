@@ -14,6 +14,16 @@ using std::cin;
 using std::cout; using std::endl;
 
 int main() {
+  // 基本知识点
+  string s1;
+  string s2 = "";
+  string s3("hello workd!");
+
+  cout << "s1默认初始值是否为空：" << s1.empty() << endl;  // 默认初始值 empty 为真
+  cout << "s2空字符串是否为空：" << s2.empty() << endl;    // 空字符串 empty 也为真
+  cout << "s3字符串长度：" << s3.size() << endl;
+
+  // 读取输入信息范例
   string line;
   while (getline(cin, line)) {
     if (line.empty()) { // 判断数据是否为空：

@@ -19,7 +19,8 @@ int main() {
     if (line.empty()) { // 判断数据是否为空：
       cout << "此行数据为空" << endl;
     } else {
-      unsigned long size = line.size();
+      unsigned long size = line.size(); // 注意，其实 size 函数返回的确切类型是 string::size_type，但不管怎样，是一个无符号整型数
+      // 或者可以直接使用auto进行类型自动推断 auto size = line.size()
       cout << "此行数据长度为：" << size << endl;
       if (size > 3) { // 输出字符长度大于3的字符串
         cout << "此行数据内容为：" << line << endl;

@@ -9,6 +9,8 @@
 #include <iostream>
 
 using std::string;
+
+using std::cin;
 using std::cout; using std::endl;
 
 int main() {
@@ -56,10 +58,16 @@ int main() {
   }
   cout << s << endl;
 
-  for (decltype(s.size()) index = 0; index != s.size() && !isspace(s[index]); ++index){
-    s[index] = toupper(s[index]);
-  }
-  cout << s << endl;
-
+  // 12 0 5 15 8 15
+  const string hexdigits = "0123456789ABCDEF"; // possible hex digits cout << "Enter a series of numbers between 0 and 15"
+  cout << "Enter a series of numbers between 0 and 15"
+       << " separated by spaces. Hit ENTER when finished: "
+       << endl;
+  string result;
+  string::size_type n;
+  while (cin >> n)
+    if (n < hexdigits.size())
+      result += hexdigits[n]; // 10进制的下标获取的字符刚好是这个下标的16进制表示
+  cout << "Your hex number is: " << result << endl;
   return 0;
 }

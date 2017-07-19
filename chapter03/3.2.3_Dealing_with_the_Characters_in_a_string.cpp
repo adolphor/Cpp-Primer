@@ -51,7 +51,7 @@ int main() {
   /**
    * 使用下标执行迭代
    */
-  for (decltype(s.size()) index = 0; index != s.size() && isspace(s[index]); ++index) {
+  for (decltype(s.size()) index = 0; index != s.size() && !isspace(s[index]); ++index) {
     s[index] = toupper(s[index]);
   }
   cout << s << endl;

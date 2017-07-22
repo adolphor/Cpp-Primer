@@ -15,6 +15,10 @@ using std::string;
 using std::cin;
 
 int main() {
+
+  /**
+   * 使用 push_back 添加元素，但是注意，不能使用下标形式添加元素
+   */
   vector<int> v2;
   for (int i = 0; i < 100; ++i) {
     v2.push_back(i);

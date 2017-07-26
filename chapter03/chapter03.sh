@@ -10,3 +10,4 @@ g++ 3.4_Introducing_Iterators/3.4.1_Using_Iterators.cpp -std=c++11
 
 g++ 3.5_Arrays/3.5.2_Accessing_the_Elements_of_an_Array.cpp -std=c++11
 
+g++ 3.5_Arrays/3.5.3_Pointers_and_Arrays.cpp -std=c++11

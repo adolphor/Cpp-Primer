@@ -54,5 +54,6 @@ int fact(int val) {
 void reset(int *ip){
   *ip = 0; // 改变了指针 ip 所指向对象的值
   ip = 0;  // 只改变了 ip 的局部拷贝，实参未被改变
+  cout << "ip = " << *ip << endl;
 }
 

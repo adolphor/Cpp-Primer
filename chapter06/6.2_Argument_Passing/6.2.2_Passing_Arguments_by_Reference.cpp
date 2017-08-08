@@ -44,7 +44,7 @@ int main() {
    * 使用引用形参返回额外信息：一个函数只能返回一个值，想要同时返回多个值，可以使用引用形参来实现。
    */
   string s = "hello, world!";
-  string::size_type ctr;
+  string::size_type ctr; // Bob：无需初始化就可以当做参数参数锁调用的函数
   auto index = find_char(s, 'o', ctr);
   cout << "index result: " << index << endl;
 

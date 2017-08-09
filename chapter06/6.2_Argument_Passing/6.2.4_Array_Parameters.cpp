@@ -7,6 +7,11 @@
 
 #include <iostream>
 
+/**
+ * 数组引用形参：变量可以定义成数组的引用，同理，形参也可以是数组的引用。
+ */
+void print3(int (&arr)[10]);
+
 using std::cout;
 using std::endl;
 
@@ -16,6 +21,19 @@ int main() {
    * 1. 不允许拷贝数组
    * 2. 使用数组时，会将其转换为指针
    */
+
+  /**
+   * 数组形参和const：当不改变数组元素的时候定义成const即可
+   */
+
+  // 注意，传入的参数和函数定义的形参长度要相等。
+  int k[10] = {0,1,2,3,4,5,6,7,8,9};
+  print3(k);
+
+  /**
+   * 传递多维数组：TODO
+   */
+
   return 0;
 }
 
@@ -34,4 +52,12 @@ void print2(const int ia[], size_t size) {
   for (size_t i = 0; i != size; ++i) {
     cout << ia[i] << endl;
   }
+}
+
+/**
+ * 数组引用形参：变量可以定义成数组的引用，同理，形参也可以是数组的引用。
+ */
+void print3(int (&arr)[10]){
+  for (auto elem : arr)
+    cout << elem << endl;
 }

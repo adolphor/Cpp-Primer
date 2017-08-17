@@ -19,7 +19,16 @@
 double avg_price() const;
 
 struct Sales_data {
-    // 新成员，关于Sales_data对象的操作
+    // 构造函数
+    Sales_data() = default;
+
+    Sales_data(const std::string &s) : bookNo(s) {}
+
+    Sales_data(const std::string &s, unsigned n, double p) : bookNo(s), units_sold(n), revenue(p * n) {}
+
+    Sales_data(std::istream &);
+
+    // 关于Sales_data对象的操作
     std::string isbn() const { return bookNo; } // 定义在类内部的成员函数：隐式的inline函数。"return bookNo;"等价于"return this->bookNo;"
 
     Sales_data &combine(const Sales_data &);

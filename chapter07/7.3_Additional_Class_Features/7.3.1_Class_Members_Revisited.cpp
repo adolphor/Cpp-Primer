@@ -6,5 +6,8 @@
  */
 int main(){
 
+  /**
+   * 定义一个类型成员：Screen
+   */
   return 0;
 }

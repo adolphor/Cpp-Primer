@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Demo 1.1
-g++ 1.1_HelloWorld.cpp
+g++ 1.1_Writing_a_Simple_Cpp_Program/1.1.0_introduction.cpp
 ./a.out
 sleep 1
 

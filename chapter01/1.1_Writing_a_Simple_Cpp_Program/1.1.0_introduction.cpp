@@ -12,5 +12,5 @@
  */
 int main() { // main函数的返回类型必须是int
   std::cout << "Hello world!" << std::endl;
-  return 0; // Q：返回值的作用？不返回的影响？返回非0的可选项？
+  return 0;
 }

@@ -18,16 +18,32 @@ sleep 1
 
 
 # Demo 1.4
-g++ 1.4_control_flow/1.4.1_whiel.cpp
+g++ 1.4_Flow_of_Control/1.4.1_The_while_Statement.cpp
 ./a.out
 sleep 1
-g++ 1.4_control_flow/1.4.2_for.cpp
+g++ 1.4_Flow_of_Control/1.4.1_P1.9_50_to_100.cpp
 ./a.out
 sleep 1
-g++ 1.4_control_flow/1.4.3_args.cpp
+g++ 1.4_Flow_of_Control/1.4.1_P1.10_10_to_0.cpp
 ./a.out
 sleep 1
-g++ 1.4_control_flow/1.4.4_if.cpp
+g++ 1.4_Flow_of_Control/1.4.1_P1.11_int_between_two_NO..cpp
+./a.out
+sleep 1
+
+g++ 1.4_Flow_of_Control/1.4.1_The_while_Statement.cpp
+./a.out
+sleep 1
+
+g++ 1.4_Flow_of_Control/1.4.2_The_for_Statement.cpp
+./a.out
+sleep 1
+
+g++ 1.4_Flow_of_Control/1.4.3_Reading_an_Unknown_Number_of_Inputs.cpp
+./a.out
+sleep 1
+
+g++ 1.4_Flow_of_Control/1.4.4_The_if_Statement.cpp
 ./a.out
 sleep 1
 

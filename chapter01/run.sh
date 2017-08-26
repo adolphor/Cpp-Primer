@@ -20,8 +20,13 @@ expect "Enter two numbers to plus:"
 send -- "4\n"
 send -- "6\n"
 
+# Demo 1.4.1_P1.11
+expect "输入两个整数："
+send -- "18\n"
+send -- "29\n"
+
 # Demo 1.4.3
-expect "notQuantitativeValue"
+expect "数量不定的输入数据"
 send -- "1\n"
 send -- "2\n"
 send -- "3\n"

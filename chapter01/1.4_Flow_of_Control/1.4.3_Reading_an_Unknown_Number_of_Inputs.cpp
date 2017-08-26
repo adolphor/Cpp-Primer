@@ -1,7 +1,10 @@
 /**
+ * 1.4.3 读取数量不定的输入数据
  * @Author Bob
  * @Eamil 0haizhu0@gmail.com
+ * @Date 2017/6/26
  */
+
 #include <iostream>
 
 /**
@@ -10,9 +13,10 @@
  *  @EOF EOF 是 end of file 的缩写，windows环境是：ctrl+Z，unix 环境是：ctrl+D，即可模拟（？）EOF
  */
 int main(){
-  std::cout << "【notQuantitativeValue】=> 请每次输入一个数据，并回车（想结束输入参数的时候输入 EOF 或者输入非数字字符即可）：" << std::endl;
+  std::cout << "数量不定的输入数据：输入一系列整数（想结束输入参数的时候输入 EOF 或者输入非数字字符即可）：" << std::endl;
   int sum = 0, value = 0;
-  while (std::cin >> value) { // 使用istream对象作为条件，其效果是检测流的状态
+  // 在while循环中完成数据读取操作
+  while (std::cin >> value) { // 只要cin读取成功就返回true，读取结束或者非法则返回false
     sum += value;
   }
   std::cout << "Sum is " << sum << std::endl;

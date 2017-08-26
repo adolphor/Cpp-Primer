@@ -12,6 +12,9 @@ sleep 1
 g++ 1.2_A_First_Look_at_Input_Output/1.2.0_P1.4_plus.cpp
 ./a.out
 sleep 1
+g++ 1.2_A_First_Look_at_Input_Output/1.2.0_P1.5_depart_output.cpp
+./a.out
+sleep 1
 
 
 # Demo 1.4

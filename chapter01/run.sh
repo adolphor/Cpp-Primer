@@ -11,15 +11,14 @@ spawn $scriptFolder/chapter01.sh
 expect "Please enter to numbers:"
 send -- "2\n"
 send -- "4\n"
-
-# Demo 1.2
-expect "Please enter to numbers:"
-send -- "2\n"
-send -- "4\n"
 # Demo 1.2-P1.4
 expect "Enter two numbers to plus:"
-send -- "2\n"
+send -- "3\n"
+send -- "5\n"
+# Demo 1.2-P1.5
+expect "Enter two numbers to plus:"
 send -- "4\n"
+send -- "6\n"
 
 # Demo 1.4.3
 expect "notQuantitativeValue"

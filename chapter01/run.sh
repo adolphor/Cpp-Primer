@@ -12,6 +12,15 @@ expect "Please enter to numbers:"
 send -- "2\n"
 send -- "4\n"
 
+# Demo 1.2
+expect "Please enter to numbers:"
+send -- "2\n"
+send -- "4\n"
+# Demo 1.2-P1.4
+expect "Enter two numbers to plus:"
+send -- "2\n"
+send -- "4\n"
+
 # Demo 1.4.3
 expect "notQuantitativeValue"
 send -- "1\n"

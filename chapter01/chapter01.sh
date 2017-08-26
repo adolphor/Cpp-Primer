@@ -9,6 +9,10 @@ sleep 1
 g++ 1.2_A_First_Look_at_Input_Output/1.2.0_introduction.cpp
 ./a.out
 sleep 1
+g++ 1.2_A_First_Look_at_Input_Output/1.2.0_P1.4_plus.cpp
+./a.out
+sleep 1
+
 
 # Demo 1.4
 g++ 1.4_control_flow/1.4.1_whiel.cpp

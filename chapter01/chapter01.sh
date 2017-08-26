@@ -1,12 +1,12 @@
 #!/bin/bash
 
-# Demo 1.1
+# Demo 1.1.0
 g++ 1.1_Writing_a_Simple_Cpp_Program/1.1.0_introduction.cpp
 ./a.out
 sleep 1
 
-# Demo 1.2
-g++ 1.2_IOStream.cpp
+# Demo 1.2.0
+g++ 1.2_A_First_Look_at_Input_Output/1.2.0_introduction.cpp
 ./a.out
 sleep 1
 

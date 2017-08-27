@@ -48,9 +48,9 @@ g++ 1.4_Flow_of_Control/1.4.4_The_if_Statement.cpp
 sleep 1
 
 # Demo 1.5
-g++ 1.5_class/1.5.1_d01_read_write.cpp
+g++ 1.5_Introducing_Classes/1.5.1_d01_read_write.cpp
 ./a.out
-g++ 1.5_class/1.5.1_d02_add.cpp
+g++ 1.5_Introducing_Classes/1.5.1_d02_add.cpp
 ./a.out
 
 

@@ -36,3 +36,9 @@
 * 1.1.0_introduction.cpp 一般文件命名
 * 1.5.1_d01_read_write.cpp 一节多个范例
 * 1.5.1_P_120.cpp 课后习题
+
+
+### 其他资料
+
+* [Qt教程](http://www.kuqin.com/qtdocument/tutorial.html)
+* [C++ 基础教程](http://www.prglab.com/cms/)

@@ -6,7 +6,7 @@
 * Section 1.5 Introducing Classes 
 * Section 1.6 The Bookstore Program 
 
-# 内容
+# 目录
 * 1.1 编写一个简单的C++程序
     - 1.1.1 编译、运行程序
 * 1.2 初始输入输出

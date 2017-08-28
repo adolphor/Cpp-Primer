@@ -1,6 +1,8 @@
 /**
+ * 1.6 书店程序
  * @Author Bob
  * @Eamil 0haizhu0@gmail.com
+ * @Date 2017/6/26
  */
 #include <iostream>
 #include "Sales_item.h"

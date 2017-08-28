@@ -7,7 +7,7 @@
 
 /**
  * 练习 1.23
- * 参考：1.4_Control_flow.cpp 中的 if_Demo 方法
+ * 参考：1.4.4_The_if_Statement.cpp
  * @return
  */
 int main() {

@@ -1,32 +1,32 @@
 #!/bin/bash
 
 # Demo 2.1
-g++ 2.1_built-in_types/2.1.1_arithmetic_type.cpp
+g++ 2.1_Primitive_Built-in_Types/2.1.1_Arithmetic_Types.cpp
 ./a.out
 sleep 1
 
-g++ 2.1_built-in_types/2.1.2_type_conversions.cpp
+g++ 2.1_Primitive_Built-in_Types/2.1.2_Type_Conversions.cpp
 ./a.out
 sleep 1
 
 
-g++ 2.1_built-in_types/2.1.3_literals.cpp
+g++ 2.1_Primitive_Built-in_Types/2.1.3_Literals.cpp
 ./a.out
 sleep 1
 
-g++ 2.2_variables/2.2.1_variable_definitions.cpp -std=c++11
+g++ 2.2_Variables/2.2.1_Variable_Definitions.cpp -std=c++11
 ./a.out
 sleep 1
 
-g++ 2.2_variables/2.2.2_variable_declare_and_define.cpp
+g++ 2.2_Variables/2.2.2_variable_declare_and_define.cpp
 ./a.out
 sleep 1
 
-g++ 2.2_variables/2.2.3_identifiers.cpp
+g++ 2.2_Variables/2.2.3_identifiers.cpp
 ./a.out
 sleep 1
 
-g++ 2.2_variables/2.2.4_scope_of_a_name.cpp
+g++ 2.2_Variables/2.2.4_scope_of_a_name.cpp
 ./a.out
 sleep 1
 

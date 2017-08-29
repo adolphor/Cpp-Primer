@@ -1,17 +1,18 @@
-#include <iostream>
-
 /**
+ * 2.3.3 理解复合类型的声明
  * @Author Bob
  * @Eamil 0haizhu0@gmail.com
  * @Date 2017/7/5
  */
+
+#include <iostream>
 
 int main() {
 
   /**
    * 定义多个变量
    */
-  int *p1, p2; // p1是指向int的指针，p2是int
+  int *p1, p2; // p1是指向int的指针，p2是int；* 只是修饰了p1而已
   int *p3, *p4; // p3和p4都是指向int的指针
 
   /**

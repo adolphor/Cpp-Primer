@@ -1,11 +1,14 @@
-#include <iostream>
-
 /**
  * 2.2.4 名字的作用域
  * @Author Bob
  * @Eamil 0haizhu0@gmail.com
+ * @Date 2017/6/29
  */
+
+#include <iostream>
+
 int reused = 42; // resued拥有全局作用域
+
 int main() {
 
   // 作用域：和Java规则一样的啦~

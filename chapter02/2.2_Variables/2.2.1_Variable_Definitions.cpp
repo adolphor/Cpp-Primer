@@ -1,12 +1,14 @@
+/**
+ * 2.2.1 变量定义
+ * @Author Bob
+ * @Eamil 0haizhu0@gmail.com
+ * @Date 2017/6/28
+ */
 
 double applyDiscount(double price, double discount);
 
 #include <iostream>
 
-/**
- * @Author Bob
- * @Eamil 0haizhu0@gmail.com
- */
 int main() {
 
   /**
@@ -22,7 +24,7 @@ int main() {
   double salePrie = applyDiscount(price, discount);
   std::cout << "SalePrice is " << salePrie << std::endl;
 
-  // 2. 列表初始化
+  // 2. 列表初始化(更多内容参考3.2.1节和3.3.1节)
   // 以下4条语句都能 定义一个名为units_sold的变量并初始化为0（使用{}是从C++11开始全面应用）
   int units_sold1 = 0;
   int units_sold2 = {0};

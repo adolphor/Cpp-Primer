@@ -1,10 +1,12 @@
-#include <iostream>
-
 /**
+ * 2.4.2
  * @Author Bob
  * @Eamil 0haizhu0@gmail.com
  * @Date 2017/7/7
  */
+
+#include <iostream>
+
 int main() {
   /**
    * 与引用一样，也可以令指针指向常量或者非常量，想要存放常量的地址，只能使用指向常量的指针。

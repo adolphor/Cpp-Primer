@@ -1,8 +1,16 @@
 /**
+ * 2.4 const 限定符
  * @Author Bob
  * @Eamil 0haizhu0@gmail.com
  * @Date 2017/7/5
  */
+
+/**
+ * 初始化和const
+ * 默认状态下，const仅在当前文件下有效，如果想要多个文件共享，需要添加 `extern` 关键字
+ */
+extern const int shared = 512;  // extern 关键字修饰非变量要当做全局变量才能够进行初始化
+
 int main() {
 
   /**
@@ -10,15 +18,6 @@ int main() {
    */
   const int bufSize = 1024; // 输入缓冲区大小
   //  bufSize = 512; // 报错，不能更改值
-
-  /**
-   * 初始化和const
-   *
-   * 默认状态下，const仅在当前文件下有效，如果想要多个文件共享，需要添加 `extern` 关键字
-   *
-   */
-//  extern const int shared = 512;  // TODO 编译不通过
-
 
   return 0;
 

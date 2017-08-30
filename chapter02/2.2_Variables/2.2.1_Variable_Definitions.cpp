@@ -5,9 +5,9 @@
  * @Date 2017/6/28
  */
 
-double applyDiscount(double price, double discount);
-
 #include <iostream>
+
+double applyDiscount(double price, double discount);
 
 int main() {
 

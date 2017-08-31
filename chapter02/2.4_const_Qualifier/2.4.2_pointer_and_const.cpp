@@ -20,9 +20,7 @@ int main() {
   const double *cptr = &pi; // cptr可以指向一个双精度常量
   // *cptr = 42; // 错误，不能给*ptr赋值
   std::cout << "pi = " << pi << std::endl;
-  std::cout << "cptr = " << cptr << std::endl; // 直接打印指针：指针所指向的对象的地址
-  std::cout << "*cptr = " << *cptr << std::endl; // 解引用指针：指针对象的具体值
-  std::cout << "&cptr = " << &cptr << std::endl; // 取(指针)地址：指针地址
+  std::cout << "cptr = " << *cptr << std::endl; // 解引用指针：指针对象的具体值
 
   int age = 18; // int型变量
   const int *cage = &age; // 指向非常量int型数据
@@ -31,6 +29,8 @@ int main() {
   ++age;
   std::cout << "age = " << age << std::endl;
   std::cout << "cage = " << *cage << std::endl;
+
+  // *cage = 24; // 错误，cage是只读指针
 
   /**
    * const 指针（常量指针） ：
@@ -41,15 +41,13 @@ int main() {
   int errorNum = 0;
   // 从右向左：const表示curErr是一个常量对象，* 表示curErr是一个常量指针，int表示这个常量指针指向了一个int对象
   int *const curErr = &errorNum; // curErr 将一直指向errNum
-  std::cout << curErr << " => " << *curErr << " => " << errorNum << std::endl;
+  std::cout << "errorNum = " << errorNum << std::endl;
+  std::cout << "curErr = " << *curErr << std::endl;
 
   const double score = 98.5;
   // 从右向左：参考上面，多了一个const，表示 cscore 是一个常量指针，指向的对象是一个双精度浮点型常量
   const double *const cscore = &score; // cscore 是一个指向常量对象的常量指针
   std::cout << cscore << " => " << *cscore << " => " << score << std::endl;
-
-  // Q: 一个表达式中有两个const分别都是什么含义和作用？
-  // A；2.4.3 可以解答这个问题
 
   return 0;
 }

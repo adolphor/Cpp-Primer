@@ -15,10 +15,10 @@ int main() {
    */
   int i = 0;
   int *const p1 = &i; // 不能改变p1的值，这是一个顶层const
-  const int ci = 42; // 不能改变ci的值，这是一个顶const
+  const int ci = 42; // 不能改变ci的值，这是一个顶层const
   const int *p2 = &ci; // 允许改变p2的值，这是一个底层const
   const int *const p3 = p2; // 靠右的const是顶层const，靠左的const是底层const
-  const int &r = ci; // 用于声明引用的const都是底层const（Bob：什么意思？）
+  const int &r = ci; // 用于声明引用的const都是底层const（因为引用就是别名，当做一般的变量一样来理解就行了）
 
   /**
    * 当执行拷贝操作时，常量是顶层const还是底层const会有较大的不同。顶层const基本上不受影响。

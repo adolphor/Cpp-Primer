@@ -1,12 +1,12 @@
-#include "Sales_item.h"
-
 /**
  * 2.5.1 类型别名
- *
  * @Author Bob
  * @Eamil 0haizhu0@gmail.com
  * @Date 2017/7/13
  */
+
+#include "Sales_item.h"
+
 int main() {
   /**
    * 类型别名是一个名字，是某个类型的同义词。有两种方式定义类型别名：typedef & using。
@@ -24,7 +24,6 @@ int main() {
    * 指针、常量和类型别名：
    * 下面两条声明语句的基本类型都是const pstring，和过去一样，const是对给定类型的修饰。
    * pstring是指向char的指针，那么const pstring就是指向char的常量指针，而不是指向常量字符的指针。
-   * TODO 进行一下 底层const 和 顶层const 的分析
    */
   typedef char *pstring;  // pstring 是指向char的指针
   const pstring cstr = 0; // cstr则也是指向char的指针，又因为有const，所以是一个cstr是指向char的常量指针
@@ -37,7 +36,6 @@ int main() {
    * 前者是 指向char的常量指针，后者是 指向const char的指针
    */
   const char *cstr2 = 0;  // 是对 const pstring char 的错误理解
-
 
   return 0;
 }

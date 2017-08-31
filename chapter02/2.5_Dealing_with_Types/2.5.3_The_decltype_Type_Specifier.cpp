@@ -1,13 +1,13 @@
-#include <iostream>
-
-double f();
-
 /**
  * 2.5.3 decltype 类型指示符
  * @Author Bob
  * @Eamil 0haizhu0@gmail.com
  * @Date 2017/7/15
  */
+
+#include <iostream>
+
+double f();
 
 int main() {
   /**

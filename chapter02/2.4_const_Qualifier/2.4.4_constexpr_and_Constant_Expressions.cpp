@@ -34,11 +34,13 @@ int main() {
    * 指针和constexpr：在constexpr声明中如果定义了一个指针，限定符constexpr仅对指针有效，与指针所指的对象无关。
    * 如下所示：constexpr把它所定义的对象置为了顶层const。
    */
-  const int *p = nullptr;       // p是一个指向整数常量的指针
-  constexpr int *q = nullptr;   // q是一个指向整数的常量指针
+  const int *p = nullptr;       // p是一个指向整数常量的指针，可以修改p指向的对象，但不能修改对象的值
+  constexpr int *q = nullptr;   // q是一个指向整数的常量指针，不能修改p指向的对象，但能修改对象的值
 
   /**
    * 与其他常量指针类似，constexpr既可以指向常量也可以指向非常量。
+   *
+   * 总的来说，使用const的地方就可以用constexpr，但要注意最后一个范例的区别
    */
 
   return 0;

@@ -10,4 +10,4 @@ int main(){
    * 库类型 string、istream、ostream 等，也都是以类的形式定义的。
    */
   return 0;
-}
+  }

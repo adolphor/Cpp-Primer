@@ -1,10 +1,12 @@
-#include <iostream>
 /**
  * 3.1 命名空间的using声明
  * @Author Bob
  * @Eamil 0haizhu0@gmail.com
  * @Date 2017/7/17
  */
+
+#include <iostream>
+
 using std::cin; // 命名空间::名称
 using std::cout; using std::endl; // 可以一行中定义多个，但必须以引号分割（其实跟多行就一样了）
 

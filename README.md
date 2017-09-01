@@ -26,14 +26,14 @@
 
 # 目录
 
-* 1. 开始
+* 1、[开始](https://github.com/NorthFacing/Cpp-Primer/tree/master/chapter01)
 * 第一部分 C++ 基础
-    - 2. 变量和基本类型
-    - 3. 字符串、向量和数组
-    - 4. 表达式
-    - 5. 语句
-    - 6. 函数
-    - 7. 类
+    - 2、[变量和基本类型](https://github.com/NorthFacing/Cpp-Primer/tree/master/chapter02)
+    - 3、[字符串、向量和数组](https://github.com/NorthFacing/Cpp-Primer/tree/master/chapter03)
+    - 4、[表达式](https://github.com/NorthFacing/Cpp-Primer/tree/master/chapter04)
+    - 5、[语句](https://github.com/NorthFacing/Cpp-Primer/tree/master/chapter05)
+    - 6、[函数](https://github.com/NorthFacing/Cpp-Primer/tree/master/chapter06)
+    - 7、[类](https://github.com/NorthFacing/Cpp-Primer/tree/master/chapter07)
 * 第二部分 C++ 标准库
     - 8. IO库
     - 9. 顺序容器

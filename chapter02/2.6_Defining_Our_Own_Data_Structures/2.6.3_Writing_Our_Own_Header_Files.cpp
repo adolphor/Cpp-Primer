@@ -11,5 +11,7 @@ int main(){
    * Sales_data类的程序包含了两次string头文件：一次在Sales_data类中隐士包含，一次在程序中直接包含。
    * 预处理器 & 头文件保护符：为了解决多次包含能够正常处理。具体内容查看Sales_data.h实现即可。
    */
+  // 同样，具体查看 Sales_data.h 数据结构实现即可
+
   return 0;
 }

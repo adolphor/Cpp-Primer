@@ -1,12 +1,13 @@
-#include <iostream>
-#include "Sales_data.h"
-
 /**
  * 2.6.2 使用 Sales_data 类
  * @Author Bob
  * @Eamil 0haizhu0@gmail.com
  * @Date 2017/7/17
  */
+
+#include <iostream>
+#include "Sales_data.h"
+
 int main() {
   Sales_data data1, data2;
   double price = 0;

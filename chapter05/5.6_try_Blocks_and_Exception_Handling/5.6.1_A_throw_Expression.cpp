@@ -1,5 +1,5 @@
 /**
- * 5.6.1. A throw Expression
+ * 5.6.1 throw表达式
  * @Author Bob
  * @Eamil 0haizhu0@gmail.com
  * @Date 2017/8/1

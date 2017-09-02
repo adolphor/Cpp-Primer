@@ -1,9 +1,14 @@
+/**
+ * @Author Bob
+ * @Eamil 0haizhu0@gmail.com
+ * @Date 2017/8/16
+ */
 
 #include <iostream>
-
-using std::istream; using std::ostream;
-
 #include "Sales_data.h"
+
+using std::istream;
+using std::ostream;
 
 Sales_data::Sales_data(std::istream &is) {
   // read will read a transaction from is into this object

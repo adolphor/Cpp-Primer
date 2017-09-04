@@ -10,7 +10,7 @@
 using std::istream;
 using std::ostream;
 
-Sales_data::Sales_data(std::istream &is) {
+Sales_data::Sales_data(std::istream &is) { // Sales_data 类的 Sales_data 方法，因为方法名和类名相同，所以是构造函数
   // read will read a transaction from is into this object
   read(is, *this);
 }

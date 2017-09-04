@@ -19,15 +19,16 @@ class Sales_data {
 
 public:
     // 构造函数
-    Sales_data() : units_sold(0), revenue(0.0) {}
+    Sales_data() :
+        units_sold(0), revenue(0.0) {} // TODO 为什么不关心 bookNo的值？
 
     Sales_data(const std::string &s) :
-        bookNo(s), units_sold(0), revenue(0.0) {}
+        bookNo(s), units_sold(0), revenue(0.0) {} // 使用s初始化bookNo，使用别的值初始化其他属性
 
     Sales_data(const std::string &s, unsigned n, double p) :
         bookNo(s), units_sold(n), revenue(p * n) {}
 
-    Sales_data(std::istream &);
+    Sales_data(std::istream &); // 声明在类中，但定义在类外
 
     // 关于Sales_data对象的操作
     std::string isbn() const { return bookNo; } // isbn 常量成员函数，用于返回对象的ISBN编号；定义和声明都在这里实现；const修改隐式this的指针类型

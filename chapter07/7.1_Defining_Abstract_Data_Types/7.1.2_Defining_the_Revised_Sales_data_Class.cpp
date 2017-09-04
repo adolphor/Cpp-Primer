@@ -15,7 +15,9 @@ int main(){
    */
 
   /**
-   * 引入const成员函数：紧跟参数列表之后的const关键字，作用是修改隐式this的指针类型。TODO
+   * 引入const成员函数：紧跟参数列表之后的const关键字，作用是修改隐式this的指针类型。
+   *
+   * 参考：Sales_data 中的 isbn 成员函数
    */
 
   /**

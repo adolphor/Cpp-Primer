@@ -11,11 +11,11 @@
 
 class Sales_data {
 
-    friend Sales_data add(const Sales_data &, const Sales_data &);
+    friend Sales_data add(const Sales_data &, const Sales_data &);// 非成员函数
 
-    friend std::ostream &print(std::ostream &, const Sales_data &);
+    friend std::ostream &print(std::ostream &, const Sales_data &);// 非成员函数
 
-    friend std::istream &read(std::istream &, Sales_data &);
+    friend std::istream &read(std::istream &, Sales_data &);// 非成员函数
 
 public:
     // 构造函数
@@ -30,11 +30,11 @@ public:
     Sales_data(std::istream &);
 
     // 关于Sales_data对象的操作
-    std::string isbn() const { return bookNo; } // isbn 成员函数，用于返回对象的ISBN编号
+    std::string isbn() const { return bookNo; } // isbn 常量成员函数，用于返回对象的ISBN编号；定义和声明都在这里实现；const修改隐式this的指针类型
 
-    Sales_data &combine(const Sales_data &); // combine成员函数，用于将一个Sales_data对象加到另一个对象上
+    Sales_data &combine(const Sales_data &); // combine 成员函数，用于将一个Sales_data对象加到另一个对象上；只声明，无定义
 
-    double avg_price() const;
+    double avg_price() const; // 只声明，无定义
 
 private:
     // 原有成员（参考2.6.1节）

@@ -67,5 +67,4 @@
 
 ### 其他资料
 
-* [Qt教程](http://www.kuqin.com/qtdocument/tutorial.html)
 * [C++ 基础教程](http://www.prglab.com/cms/)

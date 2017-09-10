@@ -65,11 +65,11 @@ int main() {
   array<int, 10>::size_type i;   // 数组类型包括元素类型和大小
 
   // 默认构造函数
-  array<int, 10> ia2 = {0,1,2,3,4,5,6,7,8,9}; // 列表初始化
+  array<int, 10> ia2 = {0, 1, 2, 3, 4, 5, 6, 7, 8, 9}; // 列表初始化
   array<int, 10> ia3 = {42};    // ia3[0]为42，其余为0
 
   // array支持拷贝
-  array<int, 10> digits = {0,1,2,3,4,5,6,7,8,9};
+  array<int, 10> digits = {0, 1, 2, 3, 4, 5, 6, 7, 8, 9};
   array<int, 10> copy = digits;
 
   return 0;

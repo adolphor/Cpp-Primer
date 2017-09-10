@@ -35,9 +35,9 @@
     - 6、[函数](https://github.com/NorthFacing/Cpp-Primer/tree/master/chapter06)
     - 7、[类](https://github.com/NorthFacing/Cpp-Primer/tree/master/chapter07)
 * 第二部分 C++ 标准库
-    - 8、IO库
-    - 9、顺序容器
-    - 10、泛型算法
+    - 8、[IO库](https://github.com/NorthFacing/Cpp-Primer/tree/master/chapter08)
+    - 9、[顺序容器](https://github.com/NorthFacing/Cpp-Primer/tree/master/chapter09)
+    - 10、[泛型算法](https://github.com/NorthFacing/Cpp-Primer/tree/master/chapter10)
     - 11、关联容器
     - 12、动态内存
 * 第三部分 类设计者的工具

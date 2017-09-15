@@ -56,6 +56,7 @@
 * [官方源码](http://www.informit.com/store/c-plus-plus-primer-9780321714114)
 * [课后习题解答](https://github.com/Mooophy/Cpp-Primer)
 * [C++ 基础教程](http://www.prglab.com/cms/)
+* [面向对象程序设计-C++](http://study.163.com/course/courseMain.htm?courseId=271005)
 
 ### 文件命名方式
 * 1.1.0_introduction.cpp 一般文件命名

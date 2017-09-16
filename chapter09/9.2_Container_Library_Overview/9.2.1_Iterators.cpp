@@ -35,7 +35,7 @@ int main() {
   // 可以安全的使用如下代码处理元素，而这是安全的
   auto itv = v.begin();
   while (itv != v.end()) {
-    cout << *itv << endl;
+    cout << *itv << endl;  // 要使用解引用运算符
     itv++;
   }
 

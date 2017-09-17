@@ -6,8 +6,11 @@
  */
 
 #include <vector>
+#include <iostream>
 
 using std::vector;
+using std::cout;
+using std::endl;
 
 int main(){
   /**
@@ -28,10 +31,15 @@ int main(){
   vector<int> v3 = { 1, 3, 5, 7 };
   vector<int> v4 = { 1, 3, 5, 7, 9, 12 };
 
-  v1 < v2; // true; v1 and v2 differ at element [2]: v1[2] is less than v2[2]
-  v1 < v3; // false; all elements are equal, but v3 has fewer of them;
-  v1 == v4; // true; each element is equal and v1 and v4 have the same size()
-  v1 == v2; // false; v2 has fewer elements than v1
+  bool r1 = v1 < v2; // true; v1 and v2 differ at element [2]: v1[2] is less than v2[2]
+  bool r2 = v1 < v3; // false; all elements are equal, but v3 has fewer of them;
+  bool r3 = v1 == v4; // true; each element is equal and v1 and v4 have the same size()
+  bool r4 = v1 == v2; // false; v2 has fewer elements than v1
+
+  cout << "v1 < v2 => " << r1 <<endl;
+  cout << "v1 < v3 => " << r2 <<endl;
+  cout << "v1 == v4 => " << r3 <<endl;
+  cout << "v1 == v2 => " << r4 <<endl;
 
   return 0;
 }

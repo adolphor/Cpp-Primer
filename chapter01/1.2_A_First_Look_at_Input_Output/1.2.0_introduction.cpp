@@ -1,5 +1,5 @@
 /**
- * 1.2 初始输入输出
+ * 1.2 初识输入输出
  * @Author Bob
  * @Eamil 0haizhu0@gmail.com
  * @Date 2017/6/24
